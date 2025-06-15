@@ -1,4 +1,5 @@
-# AI-Powered Educational Raps: An Automated Video Generation Pipeline
+# Bar Keepers
+- AI-Powered Educational Raps: An Automated Video Generation Pipeline
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Platform](https://img.shields.io/badge/Platform-Modal-brightgreen)
