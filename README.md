@@ -13,13 +13,13 @@ The entire pipeline is built to run on **[Modal](https://modal.com/)**, leveragi
 
 The core idea is to fuse education with entertainment. Instead of dry text, users learn through a catchy rap song, with the key information reinforced through a visually engaging video format.
 
-![Project Idea Diagram](./docs/idea.png)
+![Project Idea Diagram](./idea.png)
 
 ## The Automated Workflow
 
 The project consists of several automated stages that work together to produce the final video:
 
-![Project Workflow Diagram](./docs/workflow.png)
+![Project Workflow Diagram](./workflow.png)
 
 1.  **Lyric Generation:** An LLM creates educational rap lyrics about a user-provided topic.
 2.  **Voice Synthesis:** The lyrics are converted into a high-quality, rap-style voice using **ElevenLabs**.
