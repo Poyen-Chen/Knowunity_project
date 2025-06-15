@@ -6,7 +6,9 @@
 ![GPU](https://img.shields.io/badge/GPU-NVIDIA%20H100-76B900)
 
 
-Final - [Instagram Post](https://www.instagram.com/know.unity.testbot/)
+### Final - [Instagram Post](https://www.instagram.com/know.unity.testbot/)
+
+
 ---
 This project is an automated pipeline that transforms any educational topic into a short, engaging music video featuring a talking head avatar, dynamic subtitles, and AI-generated music. The final output is designed for short-form video platforms like TikTok and Instagram to make learning fun and memorable.
 
