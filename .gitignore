@@ -1,0 +1,24 @@
+# Python cache and build files
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+
+# IDE and OS-specific files
+.vscode/
+.idea/
+*.DS_Store
+.ipynb_checkpoints
+
+# Large output files and logs
+/output/
+*.log
+
+# Credentials and Session Files
+session.json
+
+# Data - Ignore large data files by default.
+# This prevents you from accidentally committing gigabytes of data.
+/data/processed/
+/data/raw/
