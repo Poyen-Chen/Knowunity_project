@@ -5,6 +5,9 @@
 ![Platform](https://img.shields.io/badge/Platform-Modal-brightgreen)
 ![GPU](https://img.shields.io/badge/GPU-NVIDIA%20H100-76B900)
 
+
+Final - [Instagram Post] (https://www.instagram.com/know.unity.testbot/)
+---
 This project is an automated pipeline that transforms any educational topic into a short, engaging music video featuring a talking head avatar, dynamic subtitles, and AI-generated music. The final output is designed for short-form video platforms like TikTok and Instagram to make learning fun and memorable.
 
 The entire pipeline is built to run on **[Modal](https://modal.com/)**, leveraging the power of a single **NVIDIA H100 GPU** to accelerate the most demanding AI tasks, from 3D head generation to audio transcription[1][3][5][7].
