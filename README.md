@@ -36,8 +36,8 @@ The project consists of several automated stages that work together to produce t
 
 This project integrates several cutting-edge AI models and tools:
 
-*   **3D Talking Head Generation:** Based on the ICLR 2024 Spotlight paper **[Real3D-Portrait: One-shot Realistic 3D Talking Portrait Synthesis](https://arxiv.org/abs/2312.00557)**.
-*   **Cloud Compute & Infrastructure:** All heavy computation is offloaded to **[Modal](https://modal.com/)**, running containerized environments on demand. The most intensive tasks leverage the speed of an **NVIDIA H100 80GB GPU** for fast processing[1][3][5][7].
+*   **3D Talking Head Generation:** Based on the ICLR 2024 Spotlight paper **[Real3D-Portrait: One-shot Realistic 3D Talking Portrait Synthesis](https://arxiv.org/abs/2401.08503)**.
+*   **Cloud Compute & Infrastructure:** All heavy computation is offloaded to **[Modal](https://modal.com/)**, running containerized environments on demand. The most intensive tasks leverage the speed of an **NVIDIA H100 80GB GPU** for fast processing.
 *   **Audio Transcription:** **`whisper-timestamped`** is used to obtain precise word-level start and end times for dynamic subtitle animation.
 *   **Video & Audio Processing:** **FFmpeg** and **MoviePy** are used for pre-processing input data and rendering the final subtitled video.
 *   **Containerization:** The entire complex software environment, including specific versions of PyTorch, CUDA, and system libraries, is defined in a **Dockerfile** to ensure reproducibility[1].
@@ -107,7 +107,7 @@ The processed files will be saved in `data/processed/`.
 
 **Step 2: Generate the Main Video**
 
-This command runs the core pipeline on Modal, using an H100 GPU to generate the talking head video. It uses your processed data as input[1].
+This command runs the core pipeline on Modal, using an H100 GPU to generate the talking head video. It uses your processed data as input.
 
 Example:
 python src/run_modal.py
